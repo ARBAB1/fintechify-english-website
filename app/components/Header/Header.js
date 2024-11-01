@@ -71,7 +71,7 @@ export default function Header() {
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
                                     <li><Link href="/rizeApp" className={styles.ol}>Rize App</Link></li>
                                     <li><Link href="/welab" className={styles.ol}>WeLab</Link></li>
-                                    <li><Link href="/realState" className={styles.ol}>Real State</Link></li>
+                                    <li><Link href="/FinBloc" className={styles.ol}>FinBloc</Link></li>
                                 </ul>
                             )}
                         </li>
@@ -204,7 +204,7 @@ export default function Header() {
                             <ul className={styles.dropdown}>
                                 <li><Link href="/rizeApp">Rize App</Link></li>
                                 <li><Link href="/welab">WeLab</Link></li>
-                                <li><Link href="/realState">Real State</Link></li>
+                                <li><Link href="/FinBloc">FinBloc</Link></li>
                             </ul>
                         )}
                     </li>
