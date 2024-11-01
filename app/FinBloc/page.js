@@ -47,15 +47,15 @@ const page = () => {
             {/* <Image src={RisImage} /> */}
             <h1>What's a FinBloc?</h1>
             <p>
-              A FinBloc represents a fraction of a property,making real estate
+              A FinBloc represents a fraction of a property, making real estate
               investment accessible and affordable for everyone.By taking an
-              entire property and dividing it into equal FinBlocs, we enable
+              entire property and dividing it into equal Blocks, we enable
               <br />
               individuals to participate in real estate investments with entry
               points as low as AED 2,000.
             </p>
             <p>
-              Each FinBloc allows investors to own a proportional share of the
+              Each block allows investors to own a proportional share of the
               property, unlocking the benefits of real estate ownership without
               the need for large upfront capital.
               <br />
@@ -103,15 +103,15 @@ const page = () => {
             {/* <Image src={RisImage} /> */}
             <h1>What's a FinBloc?</h1>
             <p>
-              A FinBloc represents a fraction of a property,making real estate
+              A FinBloc represents a fraction of a property, making real estate
               investment accessible and affordable for everyone.By taking an
-              entire property and dividing it into equal FinBlocs, we enable
+              entire property and dividing it into equal Blocks, we enable
               <br />
               individuals to participate in real estate investments with entry
               points as low as AED 2,000.
             </p>
             <p>
-              Each FinBloc allows investors to own a proportional share of the
+              Each Blocks allows investors to own a proportional share of the
               property, unlocking the benefits of real estate ownership without
               the need for large upfront capital.
               <br />
