@@ -48,7 +48,7 @@
 }
 
 .RisMobile {
-  width: 100%;
+  width: 70%;
   height: auto;
   display: block;
   margin: auto;
@@ -224,11 +224,57 @@
   border-radius: 50px;
 }
 
+.servicessection {
+  text-align: center;
+  color: black;
+  margin: 80px 0;
+}
+.servicessection h5 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.servicessection p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.servicesBox {
+  color: black;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 2px solid #E2E4EF;
+  text-align: center;
+  position: relative;
+  height: 275px;
+}
+.servicesBoxScd{
+  background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
+  color: white !important;
+  height: 200px !important;
+}
+.servicesBox svg {
+  font-size: 50px;
+  background: #1F8EF8;
+  padding: 8px 8px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.servicesBox h4 {
+  font-weight: 700;
+}
+.servicesBox span {
+  font-size: 14px;
+  display: block;
+  padding-bottom: 25px;
+}
+
 /* Responsive breakpoints */
 @media screen and (max-width:992px) {
-  .container2{
+  /* .container2{
     margin-top: 80px !important;
-  }
+  } */
   .aboutFirstsection h2 {
     font-size: 30px;
   }
@@ -248,7 +294,7 @@
     margin-top: auto;
   }
   .RisMobile{
-    height: 500px;
+    /* height: 500px; */
     background: #FDFEFF;
   }
   .aboutFirst img {
@@ -280,9 +326,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .container2{
-    margin-top: 5px !important;
-  }
   .aboutFirstsection .iconFlexBox h3 {
     font-size: 14px;
   }
@@ -302,5 +345,12 @@
   }
   .row2 h1 {
     font-size: 6vw;
+  }
+  .servicessection h5 {
+    font-size: 25px;
+  }
+  
+  .servicessection p {
+    font-size: 15px;
   }
 }
