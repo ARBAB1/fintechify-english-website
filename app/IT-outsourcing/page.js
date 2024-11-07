@@ -5,11 +5,11 @@ import Banner from "../components/Banner/Banner";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
-import img1 from "../components/assets/images/integrationimg.webp";
+import img1 from "../components/assets/images/IT.JPEG";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/integration.jpg";
-import Link from 'next/link'
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
@@ -18,9 +18,9 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"Integration Services"}
+        head={"IT Outsourcing"}
         tagLine={false}
-        tagLine2={"The Ultimate Connector."}
+        // tagLine2={"The Ultimate Connector."}
         Des={false}
       />
       <section className="d-lg-block d-none mb-5 mt-5">
@@ -33,27 +33,36 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Experience Uninterrupted Operations for Optimal Performance
-                  with Fintechify Integration Services.
+                  IT OUTSOURCING | Serve as your on-demand development team
                 </h4>
                 <p>
-                  Fintechify knows in today’s digital world, seamless
-                  connections are the key to success. That’s why we offer
-                  Integration Services designed to demolish data silos and
-                  turbocharge your workflows. Imagine your systems working
-                  together in perfect harmony, unlocking a new level of
-                  efficiency for your business. Stop wrestling with outdated
-                  tech. Let Fintechify’s Integration Services be your secret
-                  weapon for achieving optimal performance.
+                  Our certified architects, project managers, analysts,
+                  engineers, and designers can collaborate with your existing
+                  staff or serve as your and accelerate growth. on-demand
+                  development team. We have the experts you need to reduce
+                  time-to-market
                 </p>
+                <h5>Advantages</h5>
+                <ul>
+                  <li>No Infrastructure Investment</li>
+                  <li>Reduces Time Spent on Hiring, Training & Execution</li>
+                  <li>Eliminates In House Employee Cost</li>
+                  <li>No Geographical Bounding</li>
+                  <li>High Productivity Level</li>
+                  <li>IP Rights Security</li>
+                  <li>Cost Efficiency</li>
+                  <li>Quality Improvement</li>
+                  <li>Flexibility in Scaling Team Up And Down</li>
+                  <li>Strong Project Management Process</li>
+                </ul>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -67,7 +76,7 @@ function page() {
           </div>
         </div>
       </section>
-      
+
       <section className="d-lg-none d-block mb-5 mt-5">
         <div className="container px-lg-5">
           <div className="row align-items-center">
@@ -87,27 +96,36 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Experience Uninterrupted Operations for Optimal Performance
-                  with Fintechify Integration Services.
+                  IT OUTSOURCING | Serve as your on-demand development team
                 </h4>
                 <p>
-                  Fintechify knows in today’s digital world, seamless
-                  connections are the key to success. That’s why we offer
-                  Integration Services designed to demolish data silos and
-                  turbocharge your workflows. Imagine your systems working
-                  together in perfect harmony, unlocking a new level of
-                  efficiency for your business. Stop wrestling with outdated
-                  tech. Let Fintechify’s Integration Services be your secret
-                  weapon for achieving optimal performance.
+                  Our certified architects, project managers, analysts,
+                  engineers, and designers can collaborate with your existing
+                  staff or serve as your and accelerate growth. on-demand
+                  development team. We have the experts you need to reduce
+                  time-to-market
                 </p>
+                <h5>Advantages</h5>
+                <ul>
+                  <li>No Infrastructure Investment</li>
+                  <li>Reduces Time Spent on Hiring, Training & Execution</li>
+                  <li>Eliminates In House Employee Cost</li>
+                  <li>No Geographical Bounding</li>
+                  <li>High Productivity Level</li>
+                  <li>IP Rights Security</li>
+                  <li>Cost Efficiency</li>
+                  <li>Quality Improvement</li>
+                  <li>Flexibility in Scaling Team Up And Down</li>
+                  <li>Strong Project Management Process</li>
+                </ul>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -225,9 +243,9 @@ function page() {
                     <h5>API Powerhouse</h5>
                     <p>
                       Break down data silos and unlock seamless communication
-                      between your applications. Our expert team crafts robust API
-                      integrations, allowing for effortless data exchange and
-                      enhanced functionality across your entire software
+                      between your applications. Our expert team crafts robust
+                      API integrations, allowing for effortless data exchange
+                      and enhanced functionality across your entire software
                       ecosystem.
                     </p>
                   </ul>
@@ -236,10 +254,10 @@ function page() {
                     <p>
                       Feeling stuck on-premise? We’re your cloud migration
                       experts. Our seamless integration services connect your
-                      existing systems with leading cloud platforms. This unlocks
-                      the power of scalability, flexibility, and accessibility.
-                      Enjoy optimal performance and access your data from
-                      anywhere, at any time.
+                      existing systems with leading cloud platforms. This
+                      unlocks the power of scalability, flexibility, and
+                      accessibility. Enjoy optimal performance and access your
+                      data from anywhere, at any time.
                     </p>
                   </ul>
                   <ul>
@@ -263,10 +281,10 @@ function page() {
                     <p>
                       Drowning in data silos? We set your information free. Our
                       data integration services create a smooth information
-                      highway across databases, applications, and analytics tools.
-                      This gives you a unified view of your entire business,
-                      empowering you to make data-driven decisions with
-                      confidence.
+                      highway across databases, applications, and analytics
+                      tools. This gives you a unified view of your entire
+                      business, empowering you to make data-driven decisions
+                      with confidence.
                     </p>
                   </ul>
                   <ul>
@@ -274,8 +292,9 @@ function page() {
                     <p>
                       Stop juggling platforms! We craft seamless integrations
                       between your e-commerce store, payment gateways, and
-                      inventory systems. This streamlines your online operations,
-                      automates tasks, and frees you up to focus on growth.
+                      inventory systems. This streamlines your online
+                      operations, automates tasks, and frees you up to focus on
+                      growth.
                     </p>
                   </ul>
                 </div>

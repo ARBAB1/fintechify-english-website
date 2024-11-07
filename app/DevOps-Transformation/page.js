@@ -5,11 +5,11 @@ import Banner from "../components/Banner/Banner";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
-import img1 from "../components/assets/images/integrationimg.webp";
+import img1 from "../components/assets/images/10.JPG";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/integration.jpg";
-import Link from 'next/link'
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
@@ -18,9 +18,9 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"Integration Services"}
+        head={"DevOps Transformation"}
         tagLine={false}
-        tagLine2={"The Ultimate Connector."}
+        // tagLine2={"The Ultimate Connector."}
         Des={false}
       />
       <section className="d-lg-block d-none mb-5 mt-5">
@@ -33,27 +33,33 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Experience Uninterrupted Operations for Optimal Performance
-                  with Fintechify Integration Services.
+                  DEVOPS TRANSFORMATION | Harness integration, interaction and
+                  innovation.
                 </h4>
                 <p>
-                  Fintechify knows in today’s digital world, seamless
-                  connections are the key to success. That’s why we offer
-                  Integration Services designed to demolish data silos and
-                  turbocharge your workflows. Imagine your systems working
-                  together in perfect harmony, unlocking a new level of
-                  efficiency for your business. Stop wrestling with outdated
-                  tech. Let Fintechify’s Integration Services be your secret
-                  weapon for achieving optimal performance.
+                  When Devops is adopted successfully, the organization is
+                  empowered to deliver software better- giving them an outsized
+                  ability to beat competition get to market faster and innovate
+                  much more effectively.
                 </p>
+                <h5>Managed Services</h5>
+                <ul>
+                  <li>Devops Evangelism</li>
+                  <li>Cloud Architecture Adoption Strategy and Consultancy</li>
+                  <li>Application Performance Management, Monitoring & Support- Operations (SUMO)
+                  </li>
+                  <li>Devops –Adoption of 5 Cs (DOERS)</li>
+                  <li>Testing Strategy and Automation Framework (TSAF)</li>
+                  <li>DevOps Advancement Services (DOAS)</li>
+                </ul>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -67,7 +73,7 @@ function page() {
           </div>
         </div>
       </section>
-      
+
       <section className="d-lg-none d-block mb-5 mt-5">
         <div className="container px-lg-5">
           <div className="row align-items-center">
@@ -85,29 +91,35 @@ function page() {
               data-aos="fade-right"
               data-aos-offset="300"
             >
-              <div className={styles.InnovativeBox}>
+               <div className={styles.InnovativeBox}>
                 <h4>
-                  Experience Uninterrupted Operations for Optimal Performance
-                  with Fintechify Integration Services.
+                  DEVOPS TRANSFORMATION | Harness integration, interaction and
+                  innovation.
                 </h4>
                 <p>
-                  Fintechify knows in today’s digital world, seamless
-                  connections are the key to success. That’s why we offer
-                  Integration Services designed to demolish data silos and
-                  turbocharge your workflows. Imagine your systems working
-                  together in perfect harmony, unlocking a new level of
-                  efficiency for your business. Stop wrestling with outdated
-                  tech. Let Fintechify’s Integration Services be your secret
-                  weapon for achieving optimal performance.
+                  When Devops is adopted successfully, the organization is
+                  empowered to deliver software better- giving them an outsized
+                  ability to beat competition get to market faster and innovate
+                  much more effectively.
                 </p>
+                <h5>Managed Services</h5>
+                <ul>
+                  <li>Devops Evangelism</li>
+                  <li>Cloud Architecture Adoption Strategy and Consultancy</li>
+                  <li>Application Performance Management, Monitoring & Support- Operations (SUMO)
+                  </li>
+                  <li>Devops –Adoption of 5 Cs (DOERS)</li>
+                  <li>Testing Strategy and Automation Framework (TSAF)</li>
+                  <li>DevOps Advancement Services (DOAS)</li>
+                </ul>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -225,9 +237,9 @@ function page() {
                     <h5>API Powerhouse</h5>
                     <p>
                       Break down data silos and unlock seamless communication
-                      between your applications. Our expert team crafts robust API
-                      integrations, allowing for effortless data exchange and
-                      enhanced functionality across your entire software
+                      between your applications. Our expert team crafts robust
+                      API integrations, allowing for effortless data exchange
+                      and enhanced functionality across your entire software
                       ecosystem.
                     </p>
                   </ul>
@@ -236,10 +248,10 @@ function page() {
                     <p>
                       Feeling stuck on-premise? We’re your cloud migration
                       experts. Our seamless integration services connect your
-                      existing systems with leading cloud platforms. This unlocks
-                      the power of scalability, flexibility, and accessibility.
-                      Enjoy optimal performance and access your data from
-                      anywhere, at any time.
+                      existing systems with leading cloud platforms. This
+                      unlocks the power of scalability, flexibility, and
+                      accessibility. Enjoy optimal performance and access your
+                      data from anywhere, at any time.
                     </p>
                   </ul>
                   <ul>
@@ -263,10 +275,10 @@ function page() {
                     <p>
                       Drowning in data silos? We set your information free. Our
                       data integration services create a smooth information
-                      highway across databases, applications, and analytics tools.
-                      This gives you a unified view of your entire business,
-                      empowering you to make data-driven decisions with
-                      confidence.
+                      highway across databases, applications, and analytics
+                      tools. This gives you a unified view of your entire
+                      business, empowering you to make data-driven decisions
+                      with confidence.
                     </p>
                   </ul>
                   <ul>
@@ -274,8 +286,9 @@ function page() {
                     <p>
                       Stop juggling platforms! We craft seamless integrations
                       between your e-commerce store, payment gateways, and
-                      inventory systems. This streamlines your online operations,
-                      automates tasks, and frees you up to focus on growth.
+                      inventory systems. This streamlines your online
+                      operations, automates tasks, and frees you up to focus on
+                      growth.
                     </p>
                   </ul>
                 </div>
