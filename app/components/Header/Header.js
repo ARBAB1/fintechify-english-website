@@ -21,10 +21,10 @@ import { IoIosArrowUp } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdClose } from "react-icons/md";
 import { FaBars } from "react-icons/fa";
-
-
-
-
+import { FaRoute } from "react-icons/fa6";
+import { MdFormatIndentDecrease } from "react-icons/md";
+import { SiSololearn } from "react-icons/si";
+import { SiMarketo } from "react-icons/si";
 
 
 
@@ -71,7 +71,9 @@ export default function Header() {
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
                                     <li><Link href="/rizeApp" className={styles.ol}>Rize App</Link></li>
                                     <li><Link href="/welab" className={styles.ol}>WeLab</Link></li>
-                                    <li><Link href="/FinBloc" className={styles.ol}>FinBloc</Link></li>
+                                    {/* <li><Link href="/FinBloc" className={styles.ol}>FinBloc</Link></li> */}
+                                    <li><Link href="/FinBloc" className={styles.ol}>Interactive Media Platform</Link></li>
+                                    <li><Link href="/FinBloc" className={styles.ol}>Property Management Solution</Link></li>
                                 </ul>
                             )}
                         </li>
@@ -121,6 +123,12 @@ export default function Header() {
                                             <Link href="/cybersecurity">Cybersecurity <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
+                                    <li>
+                                        <MdFormatIndentDecrease color="#1e8bf6" />
+                                        <div>
+                                            <Link href="/integration-services">DevOps Transformation<WiDirectionUpRight /></Link>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                             <div className='col-lg-4 p-0 m-0'>
@@ -143,6 +151,18 @@ export default function Header() {
                                             <Link href="/decentralized-finance-defi-platform">Decentralized Finance Platform <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
+                                    <li>
+                                        <FaRoute color="#1e8bf6" />
+                                        <div>
+                                            <Link href="/integration-services">IT Outsourcing<WiDirectionUpRight /></Link>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <SiMarketo color="#1e8bf6" />
+                                        <div>
+                                            <Link href="/integration-services">E-Commerce<WiDirectionUpRight /></Link>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                             <div className='col-lg-4 p-0 m-0'>
@@ -163,6 +183,12 @@ export default function Header() {
                                         <FaExchangeAlt color="#1e8bf6" />
                                         <div>
                                             <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <WiDirectionUpRight /></Link>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <SiSololearn color="#1e8bf6" />
+                                        <div>
+                                            <Link href="/integration-services">Solution Re-Engineering<WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
                                 </ul>
@@ -193,6 +219,10 @@ export default function Header() {
                                 <li><Link href="/resource-augmentation">Resource Augmentation</Link></li>
                                 <li><Link href="/currency-exchange-platform-development">Currency Exchange Platform Development</Link></li>
                                 <li><Link href="/cybersecurity">Cybersecurity</Link></li>
+                                <li><Link href="/cybersecurity">IT Outsoucring</Link></li>
+                                <li><Link href="/cybersecurity">Solution Re-Engineering</Link></li>
+                                <li><Link href="/cybersecurity">DevOps Transformation</Link></li>
+                                <li><Link href="/cybersecurity">E-Commerce</Link></li>
                             </ul>
                         )}
                     </li>
