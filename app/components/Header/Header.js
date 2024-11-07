@@ -69,7 +69,7 @@ export default function Header() {
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
                                     <li><Link href="/rizeApp" className={styles.ol}>Rize App</Link></li>
                                     <li><Link href="/welab" className={styles.ol}>WeLab</Link></li>
-                                    <li><Link href="/interactive-media-platform" className={styles.ol}>Interactive Media Platform</Link></li>
+                                    <li><Link href="/FinBloc" className={styles.ol}>Interactive Media Platform</Link></li>
                                     <li><Link href="/property-management-solution" className={styles.ol}>Property Management Solution</Link></li>
                                     <li><Link href="/smart-order" className={styles.ol}>Smart Order</Link></li>
                                     <li><Link href="/gateway-plus" className={styles.ol}>Gateway Plus</Link></li>
@@ -326,7 +326,7 @@ export default function Header() {
                                 <li><Link href="/rizeApp">Rize App</Link> </li>
                                 <li><Link href="/welab">WeLab</Link> </li>
                                 <li><Link href="/interactive-media-platform">Interactive Media Platform</Link></li>
-                                <li><Link href="/property-management-solution">Property Management Solution</Link></li>
+                                <li><Link href="/FinBloc">Property Management Solution</Link></li>
                                 <li><Link href="/smart-order">Smart Order</Link></li>
                                 <li><Link href="/gateway-plus">Gateway Plus</Link></li>
                                 <li><Link href="/smart-city-solutions">Smart City Solutions</Link></li>

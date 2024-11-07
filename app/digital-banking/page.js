@@ -1,149 +1,208 @@
-import React from "react";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import style from "./welab.module.css";
-import Testimonials from "../components/Testimonials/Testimonials";
-import Image from "next/image";
-import RisImage from "../components/assets/images/weblab.png";
-import RisMobile from "../components/assets/images/weblabPhone.png";
-const page = () => {
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import Header from '../components/Header/Header'
+import Banner from '../components/Banner/Banner'
+import Testimonials from '../components/Testimonials/Testimonials'
+import Footer from '../components/Footer/Footer'
+import styles from '../components/assets/css/services.module.css'
+import img1 from '../components/assets/images/hand-holding-credit-card-online-shopping-laptop-eating-halloween-cookies-coffee-happy-halloween-hello-october-fall-autumn-festive-party-holiday-concept-scaled.jpg'
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import aboutFirstSectionImg from "../components/assets/images/3d-internet-secuirty-badge.jpg"
+import QoutesImg from '../components/assets/images/img-3-300x300.png'
+import { IoCheckmarkSharp } from "react-icons/io5";
+import { FaArrowRight } from "react-icons/fa6";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+
+
+
+function page() {
   return (
     <>
       <Header />
-      <div className={`container-fluid ${style.containerFluid}`}>
-        <div className={`container-fluid ${style.container}`}>
-          <div className={`row ${style.row}`}>
-            <div className={`col-md-12 ${style.col12}`}>
-              <h1>
-                <Image src={RisImage} />
-              </h1>
-              {/* <p>
-                Welab is a Software-as-a-Service (SaaS) platform that seamlessly
-                connects patients with healthcare providers, enabling services
-                to be performed in the comfort of their own homes. With Welab,
-                licensed healthcare professionals are just a click away,
-                providing on-demand healthcare services.
-              </p> */}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={`container-fluid  d-lg-block d-none  ${style.container2}`}>
-        <div className={`row ${style.row}`}>
-          <div
-            className={`col-lg-6 ${style.collg6}`}
-            data-aos="fade-right"
-            data-aos-duration="2000"
-          >
-              <Image src={RisImage} alt="Description" />
-            <h1 className="mt-3">
-              WE ARE PROUD TO PRESENT WELAB, A GROUNDBREAKING SOLUTION THAT
-              BRINGS HEALTHCARE SERVICES TO YOUR DOORSTEP WITH SPEED AND
-              CONVENIENCE.
-            </h1>
-            <p>
-              Welab is a Software-as-a-Service (SaaS) platform that seamlessly
-              connects patients with healthcare providers, enabling services to
-              be performed in the comfort of their own homes. With Welab,
-              licensed healthcare professionals are just a click away, providing
-              on-demand healthcare services.
-            </p>
+      <Banner
+        showCase={false}
+        head={"Digital Banking"}
+        tagLine={false}
+        Des={false}
+      />
 
-            <button className={style.btn}>Join Now</button>
-          </div>
-          <div className={`col-lg-6 ${style.collg62}`}>
-            <Image
-              src={RisMobile}
-              className={`${style.RisMobile2} img-fluid`}
-              data-aos="fade-left"
-              data-aos-duration="2000"
-            />
-          </div>
-        </div>
-      </div>
-      <div className={`container-fluid  d-lg-none d-block  ${style.container2}`}>
-        <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 ${style.collg62}`}>
-            <Image
-              src={RisMobile}
-              className={`${style.RisMobile2} img-fluid`}
-              data-aos="fade-left"
-              data-aos-duration="2000"
-            />
-          </div>
-          <div
-            className={`col-lg-6 ${style.collg6}`}
-            data-aos="fade-right"
-            data-aos-duration="2000"
-          >
-              <Image src={RisImage} alt="Description" />
-            <h1 className="mt-3">
-              WE ARE PROUD TO PRESENT WELAB, A GROUNDBREAKING SOLUTION THAT
-              BRINGS HEALTHCARE SERVICES TO YOUR DOORSTEP WITH SPEED AND
-              CONVENIENCE.
-            </h1>
-            <p>
-              Welab is a Software-as-a-Service (SaaS) platform that seamlessly
-              connects patients with healthcare providers, enabling services to
-              be performed in the comfort of their own homes. With Welab,
-              licensed healthcare professionals are just a click away, providing
-              on-demand healthcare services.
-            </p>
-
-            <button className={style.btn}>Join Now</button>
-          </div>
-        </div>
-      </div>
-      
-      <div className={`container  ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
-        <div className={`row  ${style.row2}`}>
-          <h1>Benefits for All Stakeholders</h1>
-          <div className={style.flexBoxes}>
-            <div className={`col-lg-5 ${style.boxleft} p-3`}>
-              <h5>Discovery Phase</h5>
-              <div className={style.section}>
-                <ul>
-                  <li>
-                    For licensed healthcare professionals, Welab offers greater
-                    flexibility and autonomy over their work schedules, allowing
-                    them to earn more by working independently.
-                  </li>
-                  <li>
-                    This model also simplifies the process for laboratories by
-                    eliminating the need for collection centers, allowing them to
-                    receive specimens directly from licensed professionals.
-                  </li>
+      <section className='mb-5 mt-5 d-lg-block d-none'>
+        <div className="container-fluid px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
+              <div className={styles.InnovativeBox}>
+                <h4>Our Digital Bank’s platform</h4>
+                <h6><b>“KashApp”</b></h6>
+                <p>
+                    insurance, and investments under a single
+                    platform. It is an integrated mobile banking
+                    solution that gives customers the ability to
+                    transact their existing bank account on
+                    services such as bill payments, funds transfer,
+                    banking services, nano loans, airtime etc
+                </p>
+                <h5 className='mt-5'>Core Components</h5>
+                <ul className={styles.ulPoints}>
+                  <li><MdOutlineKeyboardDoubleArrowRight />KashApp Mobile App / Web</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />KashApp Payment Platform</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />KashApp Tokenization System</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />KashApp API</li>
                 </ul>
               </div>
+              <button className={`${styles.LuSend2} mt-3`}>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
-            <div className={`col-lg-5 ${style.boxright} ${style.marginTop} p-3`}>
-              <div className={style.tdSection}>
-                <div className={style.section}>
-                  <h5>Investment:</h5>
-                  <ul>
-                    <li>
-                      Welab’s innovative healthcare delivery system extends far
-                      beyond blood specimen collection and delivery. By connecting
-                      patients with licensed healthcare professionals through a
-                      mobile platform, Welab can offer a wide range of in-home
-                      medical services such as IV hydration, ECGs, and vaccines.
-                    </li>
-                    <li>
-                      Welab is revolutionizing the healthcare industry, making
-                      quality healthcare services accessible, efficient, and
-                      convenient. Embrace the future of healthcare with Welab.
-                    </li>
-                  </ul>
+            <div className="col-lg-6">
+              <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                <Image src={img1} className='img-fluid' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='mb-5 mt-5 d-lg-none d-block'>
+        <div className="container-fluid px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                <Image src={img1} className='img-fluid' />
+              </div>
+            </div>
+            <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
+              <div className={styles.InnovativeBox}>
+                <h4>Our Digital Bank’s platform</h4>
+                <h6><b>“KashApp”</b></h6>
+                <p>
+                    insurance, and investments under a single
+                    platform. It is an integrated mobile banking
+                    solution that gives customers the ability to
+                    transact their existing bank account on
+                    services such as bill payments, funds transfer,
+                    banking services, nano loans, airtime etc
+                </p>
+                <h5 className='mt-5'>Core Components</h5>
+                <ul className={styles.ulPoints}>
+                  <li><MdOutlineKeyboardDoubleArrowRight />KashApp Mobile App / Web</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />KashApp Payment Platform</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />KashApp Tokenization System</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />KashApp API</li>
+                </ul>
+              </div>
+              <button className={`${styles.LuSend2} mt-3`}>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.aboutFirst}>
+        <div className="container-fluid px-lg-5">
+          <div className="row">
+            <div className="col-lg-6">
+              <div data-aos="fade-up" data-aos-duration="500" >
+                <Image className="img-fluid" src={aboutFirstSectionImg} />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
+                <h2 className=''>
+                  Why You Should Move for <br /> Banking App Development
+                </h2>
+                <div className={styles.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>Reduced Costs:</h3>
+                    <span>Lower operational expenses by encouraging <br /> the use of mobile banking over physical branches.</span>
+                  </div>
+                </div>
+                <div className={styles.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>Lower operational expenses by encouraging <br /> the use of mobile banking over physical branches.</h3>
+                    <span>Offer a more personalized and interactive banking experience.</span>
+                  </div>
+                </div>
+                <div className={styles.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>Improved Customer Satisfaction:</h3>
+                    <span>Provide convenient and efficient services, leading to higher customer retention.</span>
+                  </div>
+                </div>
+                <div className={styles.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>Data-Driven Insights:</h3>
+                    <span>Gain valuable customer data and spending habits to inform future marketing strategies and product development.</span>
+                  </div>
+                </div>
+                <div className={styles.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>Competitive Advantage:</h3>
+                    <span>Stay ahead of the curve by offering innovative mobile banking solutions.</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
+        <div className="container-fluid px-lg-5">
+          <div className="row">
+            <div className={styles.startedUpperBox}>
+              <Image src={QoutesImg} alt='Qoutes' />
+              <h4>Get Started Today</h4>
+              <p>Tired of clunky banking apps? We build rocketships.</p>
+            </div>
+            <div className="col-lg-6">
+              <div className={`${styles.startedBox} ${styles.startedLeft}`}>
+                <ul>
+                  <h5>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Shield information like Fort Knox (but with better wifi).</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className={`${styles.startedBox}  ${styles.starteRight}`}>
+                <ul>
+                  <h5>We’re not just developers, we’re banking superheroes. Our team of design wizards, coding ninjas, and strategic masterminds join forces to create:</h5>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Apps that are a joy to use, not a chore.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Features that make banking a breeze, not a battlefield.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Solutions that turn customers into raving fans, not frustrated users.</span></li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className={styles.startedBottomSection}>
+                Don't just offer banking, be the banking revolution. Partner with Fintechify and watch your mobile app soar! <br />
+                Ready to launch your mobile banking app into the stratosphere? Contact us today!
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Testimonials />
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default page;
+export default page

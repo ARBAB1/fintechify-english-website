@@ -6,7 +6,7 @@ import Banner from '../components/Banner/Banner'
 import Testimonials from '../components/Testimonials/Testimonials'
 import Footer from '../components/Footer/Footer'
 import styles from '../components/assets/css/services.module.css'
-import img1 from '../components/assets/images/3f78baf2.jpg'
+import img1 from '../components/assets/images/phone-that-has-word-go-go-it-scaled.jpg'
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import aboutFirstSectionImg from "../components/assets/images/3d-internet-secuirty-badge.jpg"
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
@@ -22,7 +22,7 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"Smart City Solutions"}
+        head={"Mobile Wallet"}
         tagLine={false}
         Des={false}
       />
@@ -32,25 +32,21 @@ function page() {
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
               <div className={styles.InnovativeBox}>
-                <h4>SMART CITY | Integrated Command and Control for City Services</h4>
+                <h4>Mobile Wallet</h4>
                 <p>
-                    SMART CITY | Integrated Command and Control for City Services
+                    Full-fledged payment system for all kinds of
+                    payments and transfers. Whether you operate
+                    financial services company, a retail network or
+                    a telecom operator –our E-Wallet solution will
+                    bring your business to the next level, allowing
+                    you to harness up-to-date tech trends.
                 </p>
-                <h5 className='mt-5'>Core Modules</h5>
+                <h5 className='mt-5'>Mobile Wallet at its core</h5>
                 <ul className={styles.ulPoints}>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Amenities Mgmt.</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Health, Safety & Security Mgmt.</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Parking Mgmt</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Advertising</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Lighting Controls</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Security Monitoring</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Climate Monitoring</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Waste Management</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Smart Mobility</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Integrated Financial Services</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Water and Sewerage Management</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Fleet Management</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />And Much More…</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Cash In</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Payments</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Transfers</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Cash-‐Out</li>
                 </ul>
               </div>
               <button className={`${styles.LuSend2} mt-3`}>
@@ -80,25 +76,21 @@ function page() {
             </div>
             <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
               <div className={styles.InnovativeBox}>
-                <h4>SMART CITY | Integrated Command and Control for City Services</h4>
+                <h4>Mobile Wallet</h4>
                 <p>
-                    SMART CITY | Integrated Command and Control for City Services
+                    Full-fledged payment system for all kinds of
+                    payments and transfers. Whether you operate
+                    financial services company, a retail network or
+                    a telecom operator –our E-Wallet solution will
+                    bring your business to the next level, allowing
+                    you to harness up-to-date tech trends.
                 </p>
-                <h5 className='mt-5'>Core Modules</h5>
+                <h5 className='mt-5'>Mobile Wallet at its core</h5>
                 <ul className={styles.ulPoints}>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Amenities Mgmt.</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Health, Safety & Security Mgmt.</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Parking Mgmt</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Advertising</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Lighting Controls</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Security Monitoring</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Climate Monitoring</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Waste Management</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Smart Mobility</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Integrated Financial Services</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Water and Sewerage Management</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />Fleet Management</li>
-                  <li><MdOutlineKeyboardDoubleArrowRight />And Much More…</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Cash In</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Payments</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Transfers</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Cash-‐Out</li>
                 </ul>
               </div>
               <button className={`${styles.LuSend2} mt-3`}>
