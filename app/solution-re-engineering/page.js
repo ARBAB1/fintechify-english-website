@@ -11,6 +11,8 @@ import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/integration.jpg";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+
 
 function page() {
   return (
@@ -45,13 +47,13 @@ function page() {
                 <h5>
                 Business Process Re-Engineering
                 </h5>
-                <ul>
-                  <li>Initiate Change</li>
-                  <li>Process Diagnosis</li>
-                  <li>Process Redesign</li>
-                  <li>Reconstruction</li>
-                  <li>Process Monitoring</li>
-                  <li>Envision New Process</li>
+                <ul className={styles.ulPoints}>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Initiate Change</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Process Diagnosis</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Process Redesign</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Reconstruction</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Process Monitoring</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Envision New Process</li>
                 </ul>
               </div>
               <button className={styles.LuSend2}>
@@ -106,13 +108,13 @@ function page() {
                 <h5>
                 Business Process Re-Engineering
                 </h5>
-                <ul>
-                  <li>Initiate Change</li>
-                  <li>Process Diagnosis</li>
-                  <li>Process Redesign</li>
-                  <li>Reconstruction</li>
-                  <li>Process Monitoring</li>
-                  <li>Envision New Process</li>
+                <ul className={styles.ulPoints}>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Initiate Change</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Process Diagnosis</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Process Redesign</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Reconstruction</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Process Monitoring</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Envision New Process</li>
                 </ul>
               </div>
               <button className={styles.LuSend2}>

@@ -11,6 +11,7 @@ import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/integration.jpg";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 function page() {
   return (
@@ -44,14 +45,14 @@ function page() {
                   solutions.
                 </p>
                 <h5>Digital Outreach</h5>
-                <ul>
-                  <li>Ecommerce Consulting</li>
-                  <li>Ecommerce Design</li>
-                  <li>Ecommerce Accelerators</li>
-                  <li>Ecommerce Development</li>
-                  <li>Support & Maintenance</li>
-                  <li>Internet Marketing</li>
-                  <li>Site Audits</li>
+                <ul className={styles.ulPoints}>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Ecommerce Consulting</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Ecommerce Design</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Ecommerce Accelerators</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Ecommerce Development</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Support & Maintenance</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Internet Marketing</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Site Audits</li>
                 </ul>
               </div>
               <button className={styles.LuSend2}>
@@ -105,14 +106,14 @@ function page() {
                   solutions.
                 </p>
                 <h5>Digital Outreach</h5>
-                <ul>
-                  <li>Ecommerce Consulting</li>
-                  <li>Ecommerce Design</li>
-                  <li>Ecommerce Accelerators</li>
-                  <li>Ecommerce Development</li>
-                  <li>Support & Maintenance</li>
-                  <li>Internet Marketing</li>
-                  <li>Site Audits</li>
+                <ul className={styles.ulPoints}>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Ecommerce Consulting</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Ecommerce Design</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Ecommerce Accelerators</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Ecommerce Development</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Support & Maintenance</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Internet Marketing</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Site Audits</li>
                 </ul>
               </div>
               <button className={styles.LuSend2}>

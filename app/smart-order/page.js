@@ -108,7 +108,7 @@ function page() {
             <div className="col-lg-6">
               <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
                 <h2 className=''>
-                  Why You Should Move for <br /> Banking App Development
+                Let’s Reach More<br />  Customers…
                 </h2>
                 <div className={styles.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />

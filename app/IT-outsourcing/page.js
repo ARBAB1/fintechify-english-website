@@ -11,6 +11,8 @@ import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/integration.jpg";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+
 
 function page() {
   return (
@@ -43,17 +45,17 @@ function page() {
                   time-to-market
                 </p>
                 <h5>Advantages</h5>
-                <ul>
-                  <li>No Infrastructure Investment</li>
-                  <li>Reduces Time Spent on Hiring, Training & Execution</li>
-                  <li>Eliminates In House Employee Cost</li>
-                  <li>No Geographical Bounding</li>
-                  <li>High Productivity Level</li>
-                  <li>IP Rights Security</li>
-                  <li>Cost Efficiency</li>
-                  <li>Quality Improvement</li>
-                  <li>Flexibility in Scaling Team Up And Down</li>
-                  <li>Strong Project Management Process</li>
+                <ul className={styles.ulPoints}>
+                  <li><MdOutlineKeyboardDoubleArrowRight />No Infrastructure Investment</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Reduces Time Spent on Hiring, Training & Execution</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Eliminates In House Employee Cost</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />No Geographical Bounding</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />High Productivity Level</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />IP Rights Security</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Cost Efficiency</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Quality Improvement</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Flexibility in Scaling Team Up And Down</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Strong Project Management Process</li>
                 </ul>
               </div>
               <button className={styles.LuSend2}>
@@ -106,17 +108,17 @@ function page() {
                   time-to-market
                 </p>
                 <h5>Advantages</h5>
-                <ul>
-                  <li>No Infrastructure Investment</li>
-                  <li>Reduces Time Spent on Hiring, Training & Execution</li>
-                  <li>Eliminates In House Employee Cost</li>
-                  <li>No Geographical Bounding</li>
-                  <li>High Productivity Level</li>
-                  <li>IP Rights Security</li>
-                  <li>Cost Efficiency</li>
-                  <li>Quality Improvement</li>
-                  <li>Flexibility in Scaling Team Up And Down</li>
-                  <li>Strong Project Management Process</li>
+                <ul className={styles.ulPoints}>
+                  <li><MdOutlineKeyboardDoubleArrowRight />No Infrastructure Investment</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Reduces Time Spent on Hiring, Training & Execution</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Eliminates In House Employee Cost</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />No Geographical Bounding</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />High Productivity Level</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />IP Rights Security</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Cost Efficiency</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Quality Improvement</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Flexibility in Scaling Team Up And Down</li>
+                  <li><MdOutlineKeyboardDoubleArrowRight />Strong Project Management Process</li>
                 </ul>
               </div>
               <button className={styles.LuSend2}>

@@ -11,6 +11,7 @@ import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/integration.jpg";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 function page() {
   return (
@@ -43,14 +44,32 @@ function page() {
                   much more effectively.
                 </p>
                 <h5>Managed Services</h5>
-                <ul>
-                  <li>Devops Evangelism</li>
-                  <li>Cloud Architecture Adoption Strategy and Consultancy</li>
-                  <li>Application Performance Management, Monitoring & Support- Operations (SUMO)
+                <ul className={styles.ulPoints}>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Devops Evangelism
                   </li>
-                  <li>Devops –Adoption of 5 Cs (DOERS)</li>
-                  <li>Testing Strategy and Automation Framework (TSAF)</li>
-                  <li>DevOps Advancement Services (DOAS)</li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Cloud Architecture Adoption Strategy and Consultancy
+                  </li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Application Performance Management, Monitoring & Support-
+                    Operations (SUMO)
+                  </li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Devops –Adoption of 5 Cs (DOERS)
+                  </li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Testing Strategy and Automation Framework (TSAF)
+                  </li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    DevOps Advancement Services (DOAS)
+                  </li>
                 </ul>
               </div>
               <button className={styles.LuSend2}>
@@ -91,7 +110,7 @@ function page() {
               data-aos="fade-right"
               data-aos-offset="300"
             >
-               <div className={styles.InnovativeBox}>
+              <div className={styles.InnovativeBox}>
                 <h4>
                   DEVOPS TRANSFORMATION | Harness integration, interaction and
                   innovation.
@@ -103,14 +122,32 @@ function page() {
                   much more effectively.
                 </p>
                 <h5>Managed Services</h5>
-                <ul>
-                  <li>Devops Evangelism</li>
-                  <li>Cloud Architecture Adoption Strategy and Consultancy</li>
-                  <li>Application Performance Management, Monitoring & Support- Operations (SUMO)
+                <ul className={styles.ulPoints}>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Devops Evangelism
                   </li>
-                  <li>Devops –Adoption of 5 Cs (DOERS)</li>
-                  <li>Testing Strategy and Automation Framework (TSAF)</li>
-                  <li>DevOps Advancement Services (DOAS)</li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Cloud Architecture Adoption Strategy and Consultancy
+                  </li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Application Performance Management, Monitoring & Support-
+                    Operations (SUMO)
+                  </li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Devops –Adoption of 5 Cs (DOERS)
+                  </li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    Testing Strategy and Automation Framework (TSAF)
+                  </li>
+                  <li>
+                    <MdOutlineKeyboardDoubleArrowRight />
+                    DevOps Advancement Services (DOAS)
+                  </li>
                 </ul>
               </div>
               <button className={styles.LuSend2}>
