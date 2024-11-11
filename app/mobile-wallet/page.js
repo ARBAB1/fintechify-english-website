@@ -156,15 +156,21 @@ function page() {
                 data-aos-offset="300"
               >
                 <h2 className="mt-5">
-                  MOBILE WALLET | E-<br/>MONEY PROCESSING<br/>PLATFORM
+                  MOBILE WALLET | E-
+                  <br />
+                  MONEY PROCESSING
+                  <br />
+                  PLATFORM
                 </h2>
                 <div className={styles.iconFlexBox}>
                   <div>
                     <h5>Let’s Enable Commerce…</h5>
                     <span className="mt-2">
-                      with Electronic Money Processing platform giving you<br/>the
-                      opportunity to build your own payment business<br/>without
-                      starting from scratch.
+                      with Electronic Money Processing platform giving you
+                      <br />
+                      the opportunity to build your own payment business
+                      <br />
+                      without starting from scratch.
                     </span>
                   </div>
                 </div>

@@ -169,9 +169,11 @@ function page() {
                   <div>
                     <h5>Let’s Transform Banking…</h5>
                     <span className="mt-2">
-                      with a comprehensive payment system that is<br/>designed to
-                      facilitate an easy to use, secure and<br/>convenient cashless
-                      experience
+                      with a comprehensive payment system that is
+                      <br />
+                      designed to facilitate an easy to use, secure and
+                      <br />
+                      convenient cashless experience
                     </span>
                   </div>
                 </div>
