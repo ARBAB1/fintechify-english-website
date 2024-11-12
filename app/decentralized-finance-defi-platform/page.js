@@ -22,7 +22,7 @@ const page = () => {
         tagLine2={"Financial freedom for everyone."}
         Des={false}
       />
-      
+
       <section className="d-lg-block d-none mb-5 mt-5">
         <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
@@ -61,7 +61,7 @@ const page = () => {
                 </p>
                 <p>
                   DeFi Lending & Borrowing: Earn interest on your crypto
-                  holdings or 
+                  holdings or
                   borrow funds at competitive rates, <br />all facilitated by smart
                   contracts.
                 </p>
@@ -81,12 +81,12 @@ const page = () => {
                 </p>
               </div>
               <button className={`${styles.LuSend2} mt-4`}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
             <div className="col-lg-6 ">
               <div
@@ -152,7 +152,7 @@ const page = () => {
                 </p>
                 <p>
                   DeFi Lending & Borrowing: Earn interest on your crypto
-                  holdings or 
+                  holdings or
                   borrow funds at competitive rates, <br />all facilitated by smart
                   contracts.
                 </p>
@@ -172,12 +172,12 @@ const page = () => {
                 </p>
               </div>
               <button className={`${styles.LuSend2} mt-4`}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -265,83 +265,43 @@ const page = () => {
         </div>
       </section> */}
 
-      <section className={`${styles.processSection} mt-5`} data-aos="fade-up">
+      <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
         <div className="container-fluid px-lg-5">
           <div className="row">
             <h4>Our Services Of DeFi Platform Development</h4>
-            <h4 className="mb-5">Tired of worrying about security and limited options?</h4>
-
+            <span><b>Tired of worrying about security and limited options?</b></span>
             <div className={styles.flexBoxes}>
-              <div className="col-lg-5 p-lg-0">
-                <div
-                  className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}
-                >
-                  <h5>Tired of worrying about security and limited options?</h5>
-                  <p>
-                    Fintechify’s DeFi platform delivers a powerful combination of{" "}
-                    <br /> cutting-edge security and a diverse range of financial
-                    instruments, <br /> all accessible 24/7.
-                  </p>
-                  <h5>Built with rock-solid security:</h5>
+              <div className='col-lg-5 p-lg-0'>
+                <div className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}>
                   <ul>
-                    <li>
-                      Blockchain Powered: We leverage the latest blockchain <br />{" "}
-                      technology to ensure every transaction is:
-                    </li>{" "}
-                    <li>
-                      Secure: Encrypted and tamper-proof, protecting your funds.{" "}
-                    </li>
-                    <li>
-                      Transparent: Every step is visible and verifiable on the
-                      blockchain.
-                    </li>
-                    <li>
-                      {" "}
-                      Immutable: Once completed, transactions cannot be reversed,
-                      fostering trust.
-                    </li>
+                    <p className="mb-3">Tired of worrying about security and limited options?</p>
+                    <p>Fintechify’s DeFi platform delivers a powerful combination of cutting-edge security and a diverse range of financial instruments, all accessible 24/7.</p>
+                  </ul>
+                  <ul>
+                    <h5>Built with rock-solid security:</h5>
+                    <p>Blockchain Powered: We leverage the latest blockchain technology to ensure every transaction is:</p>
+                    <p>Secure: Encrypted and tamper-proof, protecting your funds.</p>
+                    <p>Timeline for liftoff</p>
+                    <p>Transparent: Every step is visible and verifiable on the blockchain.</p>
+                    <p>Immutable: Once completed, transactions cannot be reversed, fostering trust.</p>
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-5 p-lg-0" id={styles.marginBoxTop}>
-                <div
-                  className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedWhiteBottomBox}`}
-                >
-                  
-                    <h5>Unleash a world of financial possibilities:</h5>
-                    <ul>
-                    <li>
-                      Beyond Traditional Finance: Our platform offers a wider
-                      range <br /> of tools than ever before:{" "}
-                    </li>
-                    <li>
-                      Decentralized Exchanges (DEXs): Trade directly with other{" "}
-                      <br /> users, bypassing centralized platforms.
-                    </li>
-                    <li>
-                      Lending & Borrowing Protocols: Earn interest on your <br />{" "}
-                      holdings or borrow funds at competitive rates.
-                    </li>
-                    <li>
-                      Yield Farming Opportunities: Maximize your returns with{" "}
-                      <br /> strategic crypto lending across DeFi protocols.
-                    </li>
+              <div className='col-lg-5 p-lg-0' id={styles.marginBoxTop}>
+                <div className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedWhiteBottomBox}`}>
+                  <ul>
+                    <h5>Unleash a world of financial possibilities</h5>
                   </ul>
-                  
+                  <ul>
+                    <p>Beyond Traditional Finance: Our platform offers a wider range of tools than ever before:</p>
+                    <p>Decentralized Exchanges (DEXs): Trade directly with other users, bypassing centralized platforms.</p>
+                    <p>Lending & Borrowing Protocols: Earn interest on your holdings or borrow funds at competitive rates.</p>
+                    <p>Yield Farming Opportunities: Maximize your returns with strategic crypto lending across DeFi protocols.</p>
+                  </ul>
+                  <ul>
                     <h5>Seamless Integration and Accessibility:</h5>
-                    <ul>
-                    <li>
-                      The DeFi Ecosystem at Your Fingertips: Our platform is{" "}
-                      <br />
-                      interoperable with other DeFi applications (DApps) and{" "}
-                      <br /> blockchain networks, allowing you to explore the
-                      entire DeFi <br /> landscape.
-                    </li>
-                    <li>
-                      Financial Freedom, 24/7: No matter your location or <br />{" "}
-                      experience level, our intuitive interface makes DeFi
-                      accessible <br /> and easy to use, anytime, anywhere.
-                    </li>
+                    <p>The DeFi Ecosystem at Your Fingertips: Our platform is interoperable with other DeFi applications (DApps) and blockchain networks, allowing you to explore the entire DeFi landscape.</p>
+                    <p>Financial Freedom, 24/7: No matter your location or experience level, our intuitive interface makes DeFi accessible and easy to use, anytime, anywhere.</p>
                   </ul>
                 </div>
               </div>
@@ -387,7 +347,7 @@ const page = () => {
                 Don't wait! Sign up for your FREE Fintechify account TODAY and
                 unlock a world of financial possibilities.
               </h5>
-              <h3 style={{fontWeight:"600"}}>Limited Spots Available! JOIN THE REVOLUTION NOW!</h3>
+              <h3 style={{ fontWeight: "600" }}>Limited Spots Available! JOIN THE REVOLUTION NOW!</h3>
             </div>
           </div>
         </div>
