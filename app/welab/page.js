@@ -28,7 +28,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className={`container-fluid  d-lg-block d-none  ${style.container2}`}>
+      <div className={`container  d-lg-block d-none  ${style.container2}`}>
         <div className={`row ${style.row}`}>
           <div
             className={`col-lg-6 ${style.collg6}`}
@@ -61,7 +61,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className={`container-fluid  d-lg-none d-block  ${style.container2}`}>
+      <div className={`container  d-lg-none d-block  ${style.container2}`}>
         <div className={`row ${style.row}`}>
           <div className={`col-lg-6 ${style.collg62}`}>
             <Image

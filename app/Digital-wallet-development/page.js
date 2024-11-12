@@ -36,7 +36,7 @@ const page = () => {
                 <p>Beyond Cash: It’s not just payments anymore.  Imagine storing loyalty cards, tickets, and even managing investments – all in one secure app.  The future of finance is here!</p>
                 <p>Ready to join the revolution?  Develop the next game-changing digital wallet app!</p>
                     </div>
-                    <button className={styles.LuSend2}>
+                    <button className={`${styles.LuSend2} mt-4`}>
                   <Link href="/contact-us"passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
                       JOIN NOW <FaArrowRight />
@@ -72,7 +72,7 @@ const page = () => {
                 <p>Beyond Cash: It’s not just payments anymore.  Imagine storing loyalty cards, tickets, and even managing investments – all in one secure app.  The future of finance is here!</p>
                 <p>Ready to join the revolution?  Develop the next game-changing digital wallet app!</p>
                     </div>
-                    <button className={styles.LuSend2}>
+                    <button className={`${styles.LuSend2} mt-4`}>
                   <Link href="/contact-us"passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
                       JOIN NOW <FaArrowRight />
@@ -130,9 +130,9 @@ const page = () => {
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt='Qoutes' />
-              <h1 className={styles.heading}>Ready to Code, Craft, and Cash In?</h1>
-              <h3>Let's build the future of finance, together!</h3>
-              <p>Developing a digital wallet isn’t just about building an app, it’s about building the future of finance. Are you ready to be a <br />part of it?</p>
+              <h1 className={styles.heading}><b>Ready to Code, Craft, and Cash In?</b></h1>
+              <h3><b>Let's build the future of finance, together!</b></h3>
+              <p>Developing a digital wallet isn’t just about building an app, it’s about building the future of finance. Are you ready to be a part of it?</p>
             </div>
             <div className="col-lg-12">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>

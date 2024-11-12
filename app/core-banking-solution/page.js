@@ -6,7 +6,7 @@ import Banner from "../components/Banner/Banner";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
-import img1 from "../components/assets/images/cyber-security-concept-by-thumb-is-used-scan-fingerprint-screen-digital-processing-biometric-identification-access-security-systems-includes-internet-banking-cloud-system-scaled.jpg";
+import img1 from "../components/assets/images/cyber-security-concept.jpg";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import aboutFirstSectionImg from "../components/assets/images/digital-marketing-concept-blue-tone-modern-laptop-screen-with-icon-marketing-success-goals-target-payments-network-connection-business-technology-background-scaled.jpg";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
@@ -227,7 +227,7 @@ function page() {
         data-aos="fade-up"
         data-aos-duration="500"
       >
-        <div className="container-fluid px-lg-5">
+        <div className="container">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />

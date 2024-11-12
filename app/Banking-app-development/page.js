@@ -30,18 +30,19 @@ function page() {
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
                             <div className={styles.InnovativeBox}>
-                                <h4>With Banking App <br />Your finances, finally <br />on autopilot.</h4>
-                                <h5>Get Tired of Traditional Banking Trends?</h5>
+                                <h4>With Banking App Your finances, finally <br />on autopilot.</h4>
+                                <h5><b>Get Tired of Traditional Banking Trends?</b></h5>
                                 <p>Imagine a world where:</p>
-                                <p>You don’t need to rush to the bank before closing.
+                                <p className='mb-0'>
+                                    You don’t need to rush to the bank before closing.
                                     Checking your balance, transferring funds, or paying bills feels effortless.</p>
-                                <p>You have a smart assistant in your pocket, helping you manage your money with ease.</p>
-                                <p>
+                                <p className='mb-0'>You have a smart assistant in your pocket, helping you manage your money with ease.</p>
+                                <p className='mb-0'>
                                     This is now Possible in Real World with our Banking App Development.
-                                    Fintechify crafts sleek, secure mobile banking that blasts past the     competition.  Our team of designers, developers, and strategists build  features that empower users and fuel growth.
+                                    Fintechify crafts sleek, secure mobile banking that blasts past the competition.  Our team of designers, developers, and strategists build  features that empower users and fuel growth.
                                 </p>
                             </div>
-                            <button className={styles.LuSend2}>
+                            <button className={`${styles.LuSend2} mt-4`} >
                                 <Link href="/contact-us"passHref>
                                     <span style={{ textDecoration: "none", color: "white" }}>
                                     JOIN NOW <FaArrowRight />
@@ -361,7 +362,7 @@ function page() {
             </section>
 
             <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container-fluid px-lg-5">
+                <div className="container">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
                             <Image src={QoutesImg} alt='Qoutes' />

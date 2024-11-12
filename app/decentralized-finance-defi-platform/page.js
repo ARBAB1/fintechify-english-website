@@ -80,7 +80,7 @@ const page = () => {
                   with confidence, regardless of your experience level.
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                   <Link href="/contact-us"passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
                       JOIN NOW <FaArrowRight />
@@ -171,7 +171,7 @@ const page = () => {
                   with confidence, regardless of your experience level.
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                   <Link href="/contact-us"passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
                       JOIN NOW <FaArrowRight />
@@ -356,9 +356,9 @@ const page = () => {
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
               <h1 className={styles.heading}>
-                Ready to break free from traditional finance?
+                <b>Ready to break free from traditional finance?</b>
               </h1>
-              <h3>Our cutting-edge DeFi platform empowers you</h3>
+              <h3><b>Our cutting-edge DeFi platform empowers you</b></h3>
             </div>
             <div className="col-lg-12 text-center">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>

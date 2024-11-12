@@ -62,7 +62,7 @@ function page() {
                   potential threats with cutting-edge cybersecurity solutions.
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
                     JOIN NOW <FaArrowRight />
@@ -132,7 +132,7 @@ function page() {
                   potential threats with cutting-edge cybersecurity solutions.
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
                     JOIN NOW <FaArrowRight />
@@ -233,7 +233,7 @@ function page() {
               <h4>
                 Key Points for Implementing <br /> Cybersecurity in Business
               </h4>
-              <span style={{ fontWeight: "600" }}>
+              <span className="mb-5" style={{ fontWeight: "600" }}>
                 Implementing cybersecurity is not just a protective measure but
                 it's a <br /> strategic advantage that sets your business apart
                 in an increasingly digital world.
@@ -312,7 +312,7 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container px-lg-5">
+        <div className="container">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
@@ -323,12 +323,6 @@ function page() {
             <div className="col-lg-12">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
-                  <h5>
-                    Your customers deserve a mobile banking experience that
-                    blasts off, not one stuck in the dark ages. Fintechify
-                    crafts powerful, user-friendly apps that:
-                  </h5>
-                  <li>
                     <p>
                       Worried about your business being vulnerable to cyber
                       threats? We create easy-to-understand, effective
@@ -337,14 +331,11 @@ function page() {
                       reputation, and stay safe from hackers with our trusted
                       services.
                     </p>
-                  </li>
-                  <li>
                     <p>
                       Contact us today! Let’s talk about your security needs and
                       show you how Fintechy.ae can make your business safer and
                       stronger.
                     </p>
-                  </li>
                 </ul>
               </div>
             </div>

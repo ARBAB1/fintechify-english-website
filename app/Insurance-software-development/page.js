@@ -63,7 +63,7 @@ function page() {
                   Let’s talk!
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                   <Link href="/contact-us"passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
                       JOIN NOW <FaArrowRight />
@@ -134,7 +134,7 @@ function page() {
                   Let’s talk!
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                   <Link href="/contact-us"passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
                       JOIN NOW <FaArrowRight />
@@ -266,7 +266,7 @@ function page() {
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>
+            <h4 className="mb-5">
               Key Features of Fintechify Insurance Software <br /> Development
               Services
             </h4>

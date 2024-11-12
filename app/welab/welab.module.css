@@ -46,7 +46,7 @@
 }
 
 .RisMobile2 {
-  height: 640px;
+  height: 400px;
   width: 100%;
   object-fit: contain;
 }
@@ -88,7 +88,7 @@
   border-radius: 20px;
   padding: 50px;
   color: white;
-  height: 400px;
+  height: 350px;
 }
 
 .flexBoxes {
@@ -105,7 +105,7 @@
   color: white;
   border-radius: 20px;
   padding: 50px;
-  height: 400px;
+  height: 350px;
 }
 
 .row2 {
@@ -161,12 +161,6 @@
   color: black;
   font-size: 40px;
   font-weight: 600;
-}
-
-.RisMobile2 {
-  height: 640px;
-  width: 100%;
-  object-fit: contain;
 }
 
 .collg62 {
@@ -232,11 +226,6 @@
 }
 
 /* Responsive breakpoints */
-@media screen and (max-width:1380px){
-  .RisMobile2 {
-    height: 400px;
-  }
-}
 @media screen and (max-width:992px) {
   .aboutFirstsection h2 {
     font-size: 30px;

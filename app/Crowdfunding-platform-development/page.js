@@ -40,7 +40,7 @@ function page() {
                                 <p>Built for Success: Our platforms are scalable and adaptable, empowering your client’s platform to grow <br />alongside their ambitions.</p>
                                 <p>More Than Development: We provide ongoing support and maintenance to ensure your client’s platform <br />stays secure, efficient, and at the forefront of the crowdfunding landscape</p>
                             </div>
-                            <button className={styles.LuSend2}>
+                            <button className={`${styles.LuSend2} mt-4`}>
                                 <Link href="/contact-us" passHref>
                                     <span style={{ textDecoration: "none", color: "white" }}>
                                         JOIN NOW <FaArrowRight />
@@ -75,7 +75,7 @@ function page() {
                                 <p>Built for Success: Our platforms are scalable and adaptable, empowering your client’s platform to grow <br />alongside their ambitions.</p>
                                 <p>More Than Development: We provide ongoing support and maintenance to ensure your client’s platform <br />stays secure, efficient, and at the forefront of the crowdfunding landscape</p>
                             </div>
-                            <button className={styles.LuSend2}>
+                            <button className={`${styles.LuSend2} mt-4`}>
                                 <Link href="/contact-us" passHref>
                                     <span style={{ textDecoration: "none", color: "white" }}>
                                         JOIN NOW <FaArrowRight />
@@ -179,7 +179,7 @@ function page() {
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container-fluid px-lg-5">
                     <div className="row">
-                        <h4>Our Process</h4>
+                        <h4 className='mb-5'>Our Process</h4>
                         <div className={styles.flexBoxes}>
                             <div className='col-lg-5 p-lg-0'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdBlueUpperBox}`}>

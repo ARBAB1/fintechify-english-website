@@ -56,7 +56,7 @@ function page() {
                   <li><MdOutlineKeyboardDoubleArrowRight />Envision New Process</li>
                 </ul>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
                     JOIN NOW <FaArrowRight />
@@ -117,7 +117,7 @@ function page() {
                   <li><MdOutlineKeyboardDoubleArrowRight />Envision New Process</li>
                 </ul>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
                     JOIN NOW <FaArrowRight />
@@ -227,10 +227,10 @@ function page() {
         </div>
       </section>
 
-      <section className={styles.processSection} data-aos="fade-up">
+      {/* <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>Our Expertise in Integration Services</h4>
+            <h4 className="mb-5">Our Expertise in Integration Services</h4>
 
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
@@ -300,9 +300,9 @@ function page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className={styles.getStartedSection} data-aos="fade-up">
+      {/* <section className={styles.getStartedSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
@@ -320,7 +320,7 @@ function page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Testimonials />
       <Footer />

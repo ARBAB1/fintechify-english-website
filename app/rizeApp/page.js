@@ -102,7 +102,7 @@ const page = () => {
                 <Image className="img-fluid" src={aboutFirstSectionImg} />
               </div>
             </div>
-            <div className="col-lg-6 p-0">
+            <div className="col-lg-6">
               <div className={style.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
                 {/* <h2>
                   Why You Should Move <br />for Banking App <br />Development

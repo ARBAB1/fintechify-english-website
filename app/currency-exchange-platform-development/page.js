@@ -41,7 +41,7 @@ function page() {
                   solutions that go above and beyond.
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
                     JOIN NOW <FaArrowRight />
@@ -90,7 +90,7 @@ function page() {
                   solutions that go above and beyond.
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
                     JOIN NOW <FaArrowRight />
@@ -168,7 +168,7 @@ function page() {
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>
+            <h4 className="mb-5">
               Key Features of Our Currency Exchange <br />
               Platform Development Service:
             </h4>
@@ -232,19 +232,19 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container-fluid px-lg-5 text-center">
+        <div className="container text-center">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
               <h4>Get Started Today</h4>
-              <h5>
+              <h6>
                 Ready to kickstart your currency exchange service or enhance
                 your current platform? With our wealth of expertise and
                 resources, we're poised to actualize your vision. Reach out
                 today to delve deeper into our Currency Exchange Platform
                 Development Service and discover how we can propel you towards
                 your business objectives.
-              </h5>
+              </h6>
             </div>
           </div>
         </div>

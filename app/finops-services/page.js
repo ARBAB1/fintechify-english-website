@@ -42,7 +42,7 @@ function page() {
                   from financial busywork. Enlist today!
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button className={`${styles.LuSend2} mt-4`}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
                     JOIN NOW <FaArrowRight />
@@ -92,7 +92,7 @@ function page() {
                   from financial busywork. Enlist today!
                 </p>
               </div>
-              <button className={styles.LuSend2}>
+              <button  className={`${styles.LuSend2} mt-4`}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
                     JOIN NOW <FaArrowRight />
@@ -315,7 +315,7 @@ function page() {
       >
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>See Where FinOps Service Works:</h4>
+            <h4 className="mb-5">See Where FinOps Service Works:</h4>
 
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">

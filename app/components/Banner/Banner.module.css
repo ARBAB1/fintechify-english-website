@@ -21,7 +21,7 @@
 }
 
 .bannerBox h2 {
-    font-size: 50px;
+    font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 700;
@@ -45,7 +45,7 @@
 .bannerBox .tagLine2{
     margin-bottom: 20px;
     display: block;
-    font-size: 35px;
+    font-size: 20px;
     color: #e9e1e1;
     font-weight: 500;
     position: relative;
