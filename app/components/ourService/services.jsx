@@ -49,7 +49,7 @@ const services = () => {
               </div>
             </div>
             <button className={`${style.LuSend2} d-lg-block d-none`}>
-              <Link href="/service" style={{ textDecoration: "none", color: "white" }}>View All Services <FaArrowRight /></Link>
+              <Link href="/service" style={{ textDecoration: "none", color: "white", }}>View All Services <FaArrowRight /></Link>
             </button>
           </div>
           <div className={`col-lg-7 col-sm-12 ${style.rightBoxes}`} >
