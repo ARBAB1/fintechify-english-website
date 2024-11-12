@@ -13,8 +13,8 @@ import head4 from "../assets/images/head4.svg";
 
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(true);
-  const [isTwo, setIsTwo] = useState(false);
+  const [isOne, setIsOne] = useState(false);
+  const [isTwo, setIsTwo] = useState(true);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -44,13 +44,13 @@ const Banner = () => {
                       <h6>Most Active User</h6>
                     </span>
                   </div>
-                  <div className={style.star} data-aos="fade-up" data-aos-duration="1500">
+                  {/* <div className={style.star} data-aos="fade-up" data-aos-duration="1500">
                     <Image src={head4} alt="Head 4" className={style.head4} />
                     <span>
                       <h6>2024 The World</h6>
                       <h6>Best Digital Bank</h6>
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className={`col-lg-4 col-md-4 m-0 p-0 ${style.colright}`}>
@@ -100,13 +100,13 @@ const Banner = () => {
                       <h6>Most Active User</h6>
                     </span>
                   </div> */}
-                  <div className={style.star} data-aos="fade-up" data-aos-duration="1000">
+                  {/* <div className={style.star} data-aos="fade-up" data-aos-duration="1000">
                     <Image src={head4} alt="Head 4" className={style.head4} />
                     <span>
                       <h6>2024 The World</h6>
                       <h6>Best Digital Bank</h6>
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className={`col-lg-4 col-md-4 m-0 p-0 ${style.colright2}`}>

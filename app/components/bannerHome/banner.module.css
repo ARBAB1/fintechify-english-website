@@ -75,6 +75,7 @@
   text-align: center;
   width: 15vw;
   font-weight: 500;
+  border: 1px solid white;
 }
 
 .colright button:hover {
@@ -90,6 +91,7 @@
   text-align: center;
   width: 15vw;
   font-weight: 500;
+  border: 1px solid white;
 }
 
 .colright2 button:hover {
