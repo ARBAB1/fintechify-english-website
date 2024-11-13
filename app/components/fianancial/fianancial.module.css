@@ -39,7 +39,7 @@
 .financialText p {
   line-height: normal;
   font-weight: 500;
-  color: gray;
+  color: black;
   font-size: 18px;
 }
 
@@ -190,7 +190,9 @@
 .res {
   display: flex;
 }
-
+.percent{
+  margin-right: 40px !important;
+}
 @media screen and (max-width:992px) {
   .financialText h2 {
     font-size: 30px;
@@ -215,7 +217,7 @@
 }
 @media screen and (max-width:480px) {
   .percent{
-    margin-left: 10px !important;
+    margin-right: 0 !important;
   }
   .percentFlex{
     flex-direction: column;

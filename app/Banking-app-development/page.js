@@ -372,9 +372,8 @@ function page() {
                         <div className="col-lg-6">
                             <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                                 <ul>
-                                    <h5>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
+                                    <h5 className='text-start'>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
                                     <li className='text-start'><IoCheckmarkSharp /><span>Shield information like Fort Knox (but with better wifi).</span></li>
-                                    <li className='text-start'><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
                                     <li className='text-start'><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
                                 </ul>
                             </div>
@@ -382,7 +381,7 @@ function page() {
                         <div className="col-lg-6">
                             <div className={`${styles.startedBox}  ${styles.starteRight}`}>
                                 <ul>
-                                    <h5>We’re not just developers, we’re banking superheroes. Our team of design wizards, coding ninjas, and strategic masterminds join forces to create:</h5>
+                                    <h5 className='text-start'>We’re not just developers, we’re banking superheroes. Our team of design wizards, coding ninjas, and strategic masterminds join forces to create:</h5>
                                     <li className='text-start'><IoCheckmarkSharp /><span>Apps that are a joy to use, not a chore.</span></li>
                                     <li className='text-start'><IoCheckmarkSharp /><span>Features that make banking a breeze, not a battlefield.</span></li>
                                     <li className='text-start'><IoCheckmarkSharp /><span>Solutions that turn customers into raving fans, not frustrated users.</span></li>
