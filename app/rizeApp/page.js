@@ -93,7 +93,7 @@ const page = () => {
 
       <section className={style.aboutFirst}>
         <div className="container-fluid px-5">
-          <div className="row text-center mb-5">
+          <div className="row text-center mb-1">
             <h2 style={{fontWeight:"700"}}>Current Features</h2>
           </div>
           <div className="row">

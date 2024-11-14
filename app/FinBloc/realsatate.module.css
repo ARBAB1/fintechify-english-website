@@ -63,9 +63,9 @@
 }
 
 .collg6 p {
-  font-weight: 300;
+  font-weight: 400;
   margin: 10px 0;
-  color: gray;
+  color: black;
   font-size: 16px;
 }
 
@@ -215,7 +215,7 @@
   font-weight: 400;
   font-size: 14px;
   white-space: break-spaces;
-  color: #666666;
+  color: black;
   padding-right: 30px;
   display: block;
 }
@@ -352,5 +352,9 @@
   
   .servicessection p {
     font-size: 15px;
+  }
+  .RisMobile {
+    height: 237px;
+    margin-bottom: 20px;
   }
 }

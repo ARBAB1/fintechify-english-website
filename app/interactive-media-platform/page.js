@@ -158,7 +158,7 @@ function page() {
                 </Link>
               </button>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 mt-4">
               <div
                 className={styles.InnovativeBox}
                 data-aos="fade-up"
@@ -262,7 +262,7 @@ function page() {
             <div className="col-lg-6">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
-                  <h5>
+                  <h5 className="text-start">
                     Your customers deserve a mobile banking experience that
                     blasts off, not one stuck in the dark ages. Fintechify
                     crafts powerful, user-friendly apps that:
@@ -291,7 +291,7 @@ function page() {
             <div className="col-lg-6">
               <div className={`${styles.startedBox}  ${styles.starteRight}`}>
                 <ul>
-                  <h5>
+                  <h5 className="text-start">
                     We’re not just developers, we’re banking superheroes. Our
                     team of design wizards, coding ninjas, and strategic
                     masterminds join forces to create:

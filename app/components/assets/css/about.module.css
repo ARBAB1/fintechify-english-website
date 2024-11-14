@@ -33,13 +33,15 @@
 }
 
 .aboutFirstsection .iconFlexBox span {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 14px;
+  color: black;
 }
 
 .aboutFirst img {
   border-radius: 50px;
-  box-shadow: 3px 4px 0px #3f3739;
+  height: 600px;
+  object-fit: cover;
 }
 
 /* ClIENT SECTION CSS ========================================================== */
@@ -58,7 +60,7 @@
 }
 
 .clientSeciton h5 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 800;
 }
 
@@ -92,7 +94,6 @@
     padding-right: 0;
   }
 }
-
 @media screen and (max-width: 568px) {
   .clientSeciton {
     border-radius: 0;
@@ -103,7 +104,6 @@
     font-size: 30px;
   }
 }
-
 @media screen and (max-width: 480px) {
   .clientSeciton {
     padding: 100px 0;
@@ -120,5 +120,9 @@
   }
   .aboutFirstsection .iconFlexBox h3 {
     font-size: 20px;
+  }
+  .aboutFirst img {
+    border-radius: 10px;
+    height: 237px;
   }
 }

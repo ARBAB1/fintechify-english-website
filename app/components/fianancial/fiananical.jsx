@@ -28,7 +28,7 @@ const FinancialComponent = () => {
                 Forget plastic, embrace the future. Fintechify unlocks next-level banking with a touch. Crafted experiences, not just solutions. We’re your gateway to dominate the digital finance game. Partner with Fintechify. Be the pioneer, not a follower.
               </p>
               <div className={`${styles.percentFlex} d-flex  mt-4`}>
-                <div className={`me-5 text-center ${styles.percent}`}>
+                <div className={`text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
                     <BsLightningCharge className={styles.eletric} />
                     <h3>20x</h3>
@@ -38,7 +38,7 @@ const FinancialComponent = () => {
                     transfers and payments.
                   </p>
                 </div>
-                <div className={`me-5 text-center ${styles.percent}`}>
+                <div className={` text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
                     <RiSecurePaymentLine className={styles.eletric} />
                     <h3>100%</h3>
