@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px) {
+
+
+  
+    .rowContent {
+      flex-direction: column;
+      align-items: flex-start;
+  
+    }
+  
+  
+  }
+  .rowContent {
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: space-evenly;
+    /* padding-right: 100px;
+    padding-left: 100px; */
+    flex-direction: row;
+    align-items: center;
+  }
+  

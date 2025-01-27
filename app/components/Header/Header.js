@@ -99,50 +99,35 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      href="/interactive-media-platform"
+                      href="/restaurant-managment-system"
                       className={styles.ol}
                     >
-                      Interactive Media Platform
+                     Restaurant Management System
                     </Link>
                   </li>
                   <li>
-                    <Link href="/FinBloc" className={styles.ol}>
-                      Property Management Solution
+                    <Link href="/parkingManagment" className={styles.ol}>
+                    Parking Management System
                     </Link>
                   </li>
                   <li>
-                    <Link href="/smart-order" className={styles.ol}>
-                      Smart Order
+                    <Link href="/campaignManagment" className={styles.ol}>
+                  Campaign Management System
                     </Link>
                   </li>
                   <li>
-                    <Link href="/gateway-plus" className={styles.ol}>
-                      Gateway Plus
+                    <Link href="/digitalbank" className={styles.ol}>
+                     Digital Bank
                     </Link>
                   </li>
                   <li>
-                    <Link href="/smart-city-solutions" className={styles.ol}>
-                      Smart City Solutions
+                    <Link href="/switch" className={styles.ol}>
+                     Switch
                     </Link>
                   </li>
                   <li>
-                    <Link href="/mobile-money-solution" className={styles.ol}>
-                      Mobile Money Solutions
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/core-banking-solution" className={styles.ol}>
-                      Core Banking Platform
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/mobile-wallet" className={styles.ol}>
-                      Mobile Wallet Platform
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/digital-banking" className={styles.ol}>
-                      Digital Oboarding Platform
+                    <Link href="/digitalwallet" className={styles.ol}>
+                     Digital Wallet
                     </Link>
                   </li>
                 </ul>
@@ -399,47 +384,49 @@ export default function Header() {
             </button>
             {isDropdownOpentwo && (
               <ul className={styles.dropdown}>
-                <li>
-                  <Link href="/rizeApp">Rize App</Link>{" "}
-                </li>
-                <li>
-                  <Link href="/welab">WeLab</Link>{" "}
-                </li>
-                <li>
-                  <Link href="/interactive-media-platform">
-                    Interactive Media Platform
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/FinBloc">Property Management Solution</Link>
-                </li>
-                <li>
-                  <Link href="/smart-order">Smart Order</Link>
-                </li>
-                <li>
-                  <Link href="/gateway-plus">Gateway Plus</Link>
-                </li>
-                <li>
-                  <Link href="/smart-city-solutions">Smart City Solutions</Link>
-                </li>
-                <li>
-                  <Link href="/mobile-money-solution">
-                    Mobile Money Solutions
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/core-banking-solution">
-                    Core Banking Platform
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/mobile-wallet">Mobile Wallet Platform</Link>
-                </li>
-                <li>
-                  <Link href="/digital-banking">
-                    Digital Oboarding Platform
-                  </Link>
-                </li>
+                   <li>
+                    <Link href="/rizeApp" className={styles.ol}>
+                      Rize App
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/welab" className={styles.ol}>
+                      WeLab
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/restaurant-managment-system"
+                      className={styles.ol}
+                    >
+                     Restaurant Management System
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/parkingManagment" className={styles.ol}>
+                    Parking Management System
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/campaignManagment" className={styles.ol}>
+                  Campaign Management System
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/digitalbank" className={styles.ol}>
+                     Digital Bank
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/switch" className={styles.ol}>
+                     Switch
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/digitalwallet" className={styles.ol}>
+                     Digital Wallet
+                    </Link>
+                  </li>
               </ul>
             )}
           </li>
