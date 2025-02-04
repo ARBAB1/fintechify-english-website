@@ -23,7 +23,7 @@
 }
 .newsLatterBox{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .newsLatterBox input{
   padding: 0.5rem;

@@ -102,32 +102,64 @@ export default function Header() {
                       href="/restaurant-managment-system"
                       className={styles.ol}
                     >
-                     Restaurant Management System
+                      Restaurant Management System
                     </Link>
                   </li>
                   <li>
                     <Link href="/parkingManagment" className={styles.ol}>
-                    Parking Management System
+                      Parking Management System
                     </Link>
                   </li>
                   <li>
                     <Link href="/campaignManagment" className={styles.ol}>
-                  Campaign Management System
+                      Campaign Management System
                     </Link>
                   </li>
                   <li>
                     <Link href="/digitalbank" className={styles.ol}>
-                     Digital Bank
+                      Digital Bank
                     </Link>
                   </li>
                   <li>
                     <Link href="/switch" className={styles.ol}>
-                     Switch
+                      Switch
                     </Link>
                   </li>
                   <li>
                     <Link href="/digitalwallet" className={styles.ol}>
-                     Digital Wallet
+                      Digital Wallet
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/whatsapp-chatbot-solution"
+                      className={styles.ol}
+                    >
+                      WhatsApp Chatbot Solution
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/whatsapp-message-broadcast-solution"
+                      className={styles.ol}
+                    >
+                      WhatsApp Message Broadcast Solution
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/bank-to-bank-remittance-service"
+                      className={styles.ol}
+                    >
+                      BANK-TO-BANK REMITTANCE SERVICE
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/cross-border-utility-bill-payment-solution"
+                      className={styles.ol}
+                    >
+                      Cross-Border Utility Bill Solution
                     </Link>
                   </li>
                 </ul>
@@ -140,6 +172,12 @@ export default function Header() {
         </nav>
         <div className={styles.actions}>
           <button className={styles.btnStart}>
+            <Link href="/ar" style={{ color: "white" }}>
+              {" "}
+              ARABIC <FaArrowRight />
+            </Link>
+          </button>
+          <button className={styles.btnStart} style={{ marginLeft: "10px" }}>
             <Link href="/contact-us" style={{ color: "white" }}>
               {" "}
               GET STARTED <FaArrowRight />
@@ -149,6 +187,7 @@ export default function Header() {
             {isOpen ? <MdClose /> : <FaBars />}
           </button>
         </div>
+        
       </header>
 
       {isMenuOpen && (
@@ -310,6 +349,7 @@ export default function Header() {
               Services {isDropdownOpen ? <IoIosArrowDown /> : <IoIosArrowUp />}
             </button>
             {isDropdownOpen && (
+              
               <ul className={styles.dropdown}>
                 <li>
                   <Link href="/Banking-app-development">
@@ -384,47 +424,84 @@ export default function Header() {
             </button>
             {isDropdownOpentwo && (
               <ul className={styles.dropdown}>
-                   <li>
-                    <Link href="/rizeApp" className={styles.ol}>
-                      Rize App
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/welab" className={styles.ol}>
-                      WeLab
+                <li>
+                  <Link href="/rizeApp" className={styles.ol}>
+                    Rize App
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/welab" className={styles.ol}>
+                    WeLab
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/restaurant-managment-system"
+                    className={styles.ol}
+                  >
+                    Restaurant Management System
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/parkingManagment" className={styles.ol}>
+                    Parking Management System
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/campaignManagment" className={styles.ol}>
+                    Campaign Management System
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/digitalbank" className={styles.ol}>
+                    Digital Bank
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/switch" className={styles.ol}>
+                    Switch
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/digitalwallet" className={styles.ol}>
+                    Digital Wallet
+                  </Link>
+                </li>
+                <li>
+                    <Link href="/digitalwallet" className={styles.ol}>
+                      Digital Wallet
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/restaurant-managment-system"
+                      href="/whatsapp-chatbot-solution"
                       className={styles.ol}
                     >
-                     Restaurant Management System
+                      WhatsApp Chatbot Solution
                     </Link>
                   </li>
                   <li>
-                    <Link href="/parkingManagment" className={styles.ol}>
-                    Parking Management System
+                    <Link
+                      href="/whatsapp-message-broadcast-solution"
+                      className={styles.ol}
+                    >
+                      WhatsApp Message Broadcast Solution
                     </Link>
                   </li>
                   <li>
-                    <Link href="/campaignManagment" className={styles.ol}>
-                  Campaign Management System
+                    <Link
+                      href="/bank-to-bank-remittance-service"
+                      className={styles.ol}
+                    >
+                      BANK-TO-BANK REMITTANCE SERVICE
                     </Link>
                   </li>
                   <li>
-                    <Link href="/digitalbank" className={styles.ol}>
-                     Digital Bank
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/switch" className={styles.ol}>
-                     Switch
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/digitalwallet" className={styles.ol}>
-                     Digital Wallet
+                    <Link
+                      href="/cross-border-utility-bill-payment-solution"
+                      className={styles.ol}
+                    >
+                      Cross-Border Utility Bill Solution
                     </Link>
                   </li>
               </ul>
